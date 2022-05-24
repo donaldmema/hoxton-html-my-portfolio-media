@@ -11,7 +11,7 @@ body {
   background-color: #fa775d;
 }
 
-.container {
+.container-top {
   display: grid;
   align-items: center;
 }
@@ -35,6 +35,18 @@ body {
 }
 
 .intro {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.proud-dev-icon {
+  width: 250px;
+}
+
+.intro__main {
   background-color: #35382e;
   border-radius: 10px;
   padding: 1rem;
