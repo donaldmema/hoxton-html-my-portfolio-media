@@ -79,7 +79,7 @@ body {
   padding: 40px 200px;
   display: grid;
   grid-auto-flow: column;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 385px 385px 385px;
   gap: 20px;
 }
 
@@ -90,6 +90,24 @@ body {
   display: grid;
   padding: 1rem;
   gap: 10px;
+}
+
+.project-snippets {
+  padding: 0px;
+  margin: 0px;
+}
+
+.project__item img {
+  width: 350px;
+  height: 210px;
+}
+
+.scale-down {
+  object-fit: scale-down;
+}
+
+.fill {
+  object-fit: fill;
 }
 
 .project__item a {
