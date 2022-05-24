@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS";
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #fa775d;
+}
+
+.container {
+  display: grid;
+  align-items: center;
+}
+
+.header {
+  background-color: #35382e;
+  margin: 20px;
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: auto 40px 80px 100px 80px;
+  padding: 1rem;
+}
+
+.header-items {
+  color: whitesmoke;
+}
+
+.header a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.intro {
+  background-color: #35382e;
+  border-radius: 10px;
+  padding: 1rem;
+  width: 650px;
+  height: 200px;
+  margin: 350px auto;
+  display: grid;
+}
+
+.title h1 {
+  color: #ffd000;
+}
+
+.intro span {
+  color: #5ac0e8;
+}
+
+.intro p {
+  color: white;
+}
+
+.projects {
+  background-color: #ede6e2;
+  display: grid;
+  padding: 80px 30px;
+  place-items: center;
+}
+
+.projects__body {
+  padding: 40px 200px;
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.project__item {
+  border: 2px solid rgba(0, 0, 0, 0.199);
+  background-color: #f7f4f3;
+  border-radius: 5px;
+  display: grid;
+  padding: 1rem;
+  gap: 10px;
+}
+
+.project__item a {
+  text-decoration: none;
+  color: white;
+}
+
+.project__item__link {
+  padding: 7px 0px;
+  background-color: #fa775d;
+}
+
+.project__item h3 {
+  color: #f0684c;
+}
+
+.experience {
+  background-color: #5bc3eb;
+  padding: 80px 20px;
+  display: grid;
+  gap: 15px;
+  place-content: center;
+}
+
+.experience-items {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: auto 200px 200px;
+  gap: 30px;
+  padding: 20px 15px;
+  border-radius: 3px;
+  background-color: #ede6e2;
+}
+
+.experience-items h3 {
+  font-size: 16px;
+  color: #35382ee1;
+}
+
+.experience-items h4 {
+  font-size: 15px;
+  color: #35382ec4;
+}
+
+.back-to-top {
+  display: grid;
+  place-items: center;
+  padding: 20px 20px;
+  background-color: #35382e;
+}
+
+.back-to-top a {
+  text-decoration: none;
+  color: white;
+}
